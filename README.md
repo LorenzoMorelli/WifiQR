@@ -1,8 +1,8 @@
 # Description
-A easy app designed for macos for decoding wifi qr codes and make easy connect to share wifi networks.
+WifiQR is an macos app designed for scanning, decoding and connecting to wifi network via QR codes 
 
 ## TODO
-- impruve docs
+- Improve README.md
 - Generate wifi qr code
 - improve graphics
 - remove warnings
