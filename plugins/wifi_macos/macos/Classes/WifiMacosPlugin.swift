@@ -37,14 +37,14 @@ public class WifiMacosPlugin: NSObject, FlutterPlugin {
           try self.interface.associate(to: targetNetwork!, password: password)
           // print("Connected to the \(ssid) network")
           
-          result("Connected to the \(ssid) network")
+          result("Connected to the \(ssid as String?) network")
         } catch {
           // print("Error while connecting")
           result("Error while connecting")
         }
       } else {
         // print("Network \(ssid) not found")
-        result("Network \(ssid) not found")
+        result("Network \(ssid as String?) not found")
       }
       
     default:
