@@ -3,6 +3,7 @@ WifiQR_installer/*
 
 # Build macos
 macos/build/
+*.dmg
 
 # Flutter/Dart/Pub related
 **/doc/api/
