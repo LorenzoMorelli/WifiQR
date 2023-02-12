@@ -29,7 +29,7 @@ environment:
 dependencies:
   # ai_barcode_scanner: ^0.0.3
   ai_barcode_scanner:
-    path: ./plugins/ai_barcode_scanner
+    path: ./plugins/ai_barcode_scanner_for_wifiqr
   flutter:
     sdk: flutter
 

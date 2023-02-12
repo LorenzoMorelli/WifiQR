@@ -1,3 +1,9 @@
-WifiQR.app
-build/*
+# Build installer
+WifiQR_installer/*
 
+# Flutter/Dart/Pub related
+**/doc/api/
+.dart_tool/
+.packages
+build/*
+pubspec.lock

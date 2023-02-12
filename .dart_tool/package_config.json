@@ -3,7 +3,7 @@
   "packages": [
     {
       "name": "ai_barcode_scanner",
-      "rootUri": "../plugins/ai_barcode_scanner",
+      "rootUri": "../plugins/ai_barcode_scanner_for_wifiqr",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
@@ -147,7 +147,7 @@
     },
     {
       "name": "mobile_scanner",
-      "rootUri": "../plugins/mobile_scanner",
+      "rootUri": "../plugins/mobile_scanner_for_wifiqr",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
@@ -254,7 +254,7 @@
       "languageVersion": "2.17"
     }
   ],
-  "generated": "2023-02-02T13:41:03.194058Z",
+  "generated": "2023-02-12T09:37:52.880743Z",
   "generator": "pub",
   "generatorVersion": "2.18.6"
 }

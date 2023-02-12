@@ -4,12 +4,12 @@ file:///Users/moremac/Projects/Flutter/WifiQR/
 file:///Users/moremac/Projects/Flutter/WifiQR/lib/
 ai_barcode_scanner
 2.17
-file:///Users/moremac/Projects/Flutter/WifiQR/plugins/ai_barcode_scanner/
-file:///Users/moremac/Projects/Flutter/WifiQR/plugins/ai_barcode_scanner/lib/
+file:///Users/moremac/Projects/Flutter/WifiQR/plugins/ai_barcode_scanner_for_wifiqr/
+file:///Users/moremac/Projects/Flutter/WifiQR/plugins/ai_barcode_scanner_for_wifiqr/lib/
 mobile_scanner
 2.17
-file:///Users/moremac/Projects/Flutter/WifiQR/plugins/mobile_scanner/
-file:///Users/moremac/Projects/Flutter/WifiQR/plugins/mobile_scanner/lib/
+file:///Users/moremac/Projects/Flutter/WifiQR/plugins/mobile_scanner_for_wifiqr/
+file:///Users/moremac/Projects/Flutter/WifiQR/plugins/mobile_scanner_for_wifiqr/lib/
 wifi_macos
 2.18
 file:///Users/moremac/Projects/Flutter/WifiQR/plugins/wifi_macos/

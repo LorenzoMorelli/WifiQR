@@ -4,7 +4,7 @@ packages:
   ai_barcode_scanner:
     dependency: "direct main"
     description:
-      path: "plugins/ai_barcode_scanner"
+      path: "plugins/ai_barcode_scanner_for_wifiqr"
       relative: true
     source: path
     version: "0.0.2+1"
@@ -166,7 +166,7 @@ packages:
   mobile_scanner:
     dependency: transitive
     description:
-      path: "plugins/mobile_scanner"
+      path: "plugins/mobile_scanner_for_wifiqr"
       relative: true
     source: path
     version: "2.0.0"
