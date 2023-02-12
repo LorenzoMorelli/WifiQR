@@ -1,6 +1,7 @@
 import 'package:ai_barcode_scanner/ai_barcode_scanner.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:wifi_macos/wifi_macos.dart';
 
 void main() {
@@ -71,7 +72,33 @@ class _MyHomePageState extends State<MyHomePage> {
                     const SizedBox(
                       height: 8,
                     ),
-                    Text("SSID: $_ssid, Password: $_password"),
+                    SelectableText(
+                      "SSID: $_ssid",
+                      onTap: () async {
+                        await Clipboard.setData(ClipboardData(text: _ssid));
+                        // copied successfully
+                        const snackBar = SnackBar(
+                          content: Text('SSID Copied'),
+                          duration: Duration(milliseconds: 800),
+                        );
+                        ScaffoldMessenger.of(context).showSnackBar(snackBar);
+                      },
+                    ),
+                    const SizedBox(
+                      height: 8,
+                    ),
+                    SelectableText(
+                      "Password: $_password",
+                      onTap: () async {
+                        await Clipboard.setData(ClipboardData(text: _ssid));
+                        // copied successfully
+                        const snackBar = SnackBar(
+                          content: Text('Password Copied'),
+                          duration: Duration(milliseconds: 800),
+                        );
+                        ScaffoldMessenger.of(context).showSnackBar(snackBar);
+                      },
+                    ),
                     const SizedBox(
                       height: 8,
                     ),
